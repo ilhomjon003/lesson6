@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper{
+width: 99%;
+height: 600px;
+margin: auto;
+display: flex;
+margin: 10px;
+}
+
+.left{
+    width: 50%;
+    height: 600px;
+    background-image: url('https://www.apple.com/v/home/ab/images/promos/watch-series-6/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg');
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.left > img{
+    margin: 30px 0px 20px 0px;
+}
+.left{
+    color: #f5f5f7;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+/* har bir harf orasini ochib beradi LETTER SPACING */
+/* WORD SPACING har bitta soz orasini ocib beradi */
+.right{
+    width: 50%;
+    height: 600px;
+    /* background-color: lightcoral; */
+    margin-left: 5px;
+    background-image: url('https://www.apple.com/v/home/ab/images/promos/ipad-pro/promo_ipad_pro_non_avail__c6f02v7gnwgi_large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promo_links{
+    margin-top: 30px;
+}
+
+.promo_links a{
+    margin: 0px 30px;
+    color: #2d97ff;
+    text-decoration: none;
+}
+
+.promo_links1{
+    margin-top: 30px;
+}
+
+.promo_links1 a{
+    margin: 0px 30px;
+    color: #2d97ff;
+    text-decoration: none;
+}
+.right p{
+    /* color: #f5f5f7; */
+    font-size: 20px;
+    letter-spacing: 1px;
+}
